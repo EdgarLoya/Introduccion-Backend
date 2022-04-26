@@ -2,7 +2,7 @@
 const http = require('http');
 //Establecemos la url o IP de nuestro servidor
 const hostname = '192.168.50.180';
-//establecemos el puerto de escuca 
+//establecemos el puerto de escuca
 const port = 3000;
 //creamos una instancia HTTP con reques y un response
 const server = http.createServer((req, res) => {
