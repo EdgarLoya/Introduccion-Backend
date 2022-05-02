@@ -12,9 +12,9 @@ http.createServer(function(request, response){
     var extname = String(path.extname(filePath)).toLowerCase();
     var contentType = 'text/html';
     var mimeTypes = {
-        'html': 'text/html',
-        'js': 'text/javascript',
-        'css': 'text/css',
+        '.html': 'text/html',
+        '.js': 'text/javascript',
+        '.css': 'text/css',
         '.png': 'image/png'
     };
 
@@ -40,4 +40,4 @@ http.createServer(function(request, response){
         }
     });
 }).listen(3000);
-console.log('Server Running at http://192.168.50.180/3000/');
+console.log('Server Running at http://192.168.50.136/3000/');
